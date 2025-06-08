@@ -1,0 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+var menus = [{"backMenu":[{"child":[{"buttons":["新增","查看","修改","删除"],"menu":"用户","menuJump":"列表","tableName":"yonghu"}],"menu":"用户管理"},{"child":[{"buttons":["新增","查看","修改","删除","查看评论"],"menu":"歌曲库","menuJump":"列表","tableName":"gequku"}],"menu":"歌曲库管理"},{"child":[{"buttons":["新增","查看","修改","删除"],"menu":"歌曲类型","menuJump":"列表","tableName":"gequleixing"}],"menu":"歌曲类型管理"},{"child":[{"buttons":["查看","修改","删除"],"menu":"点歌信息","menuJump":"列表","tableName":"diangexinxi"}],"menu":"点歌信息管理"}],"frontMenu":[],"hasBackLogin":"是","hasBackRegister":"否","hasFrontLogin":"否","hasFrontRegister":"否","roleName":"管理员","tableName":"users"},{"backMenu":[{"child":[{"buttons":["查看","点歌"],"menu":"歌曲库","menuJump":"列表","tableName":"gequku"}],"menu":"歌曲库管理"},{"child":[{"buttons":["查看","删除"],"menu":"点歌信息","menuJump":"列表","tableName":"diangexinxi"}],"menu":"点歌信息管理"}],"frontMenu":[],"hasBackLogin":"否","hasBackRegister":"是","hasFrontLogin":"是","hasFrontRegister":"是","roleName":"用户","tableName":"yonghu"}];
+
+var hasMessage = '';
